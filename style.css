@@ -1,0 +1,257 @@
+@font-face{
+  font-family:'aramis';
+  src:url('fonts/aramisi.ttf');
+  format('opentype')'';
+}
+
+body{
+  background-color: #060709;
+  color:#eee;
+  font-family: 'Asar', serif;
+  width:100%;
+  margin:auto;
+}
+
+/* HEADER */
+
+.title {
+  font-size: 38px;
+  margin-top: 50px;
+}
+.title2 {
+  font-size: 38px;
+  margin-top: 15px;
+}
+
+.tagline{
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+/*  MAIN  */
+
+main {
+  border-radius: 15px;
+  background-image: url('../imgs/oil.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+
+p {
+  font-size: 25px;
+}
+
+.services-left, .services-right {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #060709;
+  margin-top: 50px;
+  opacity: .7;
+  padding: 20px;
+}
+
+.services-left {
+  margin-left: 50px;
+}
+
+.services-right {
+  margin-right: 50px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #030303;
+  margin-bottom: 50px;
+}
+
+footer p{
+  font-size:18px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.contact {
+  width: 30%;
+  letter-spacing: 2px;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 100px;
+  /*margin-right: -100px;*/
+}
+
+.address {
+  margin-top: 30px;
+  margin-left: -175px;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+  opacity: .8;
+}
+
+.email{
+  padding-top:20px;
+}
+
+
+
+/* MQ Small Desktop */
+@media(min-width:750px) and (max-width:1215px){
+
+  .title {
+    margin-top: 15px;
+  }
+
+  .diamond1 {
+    width: 15%;
+  }
+
+  .diamond2 {
+    display: none;
+  }
+
+  #nameImg {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .contact, .address {
+    margin: 0px;
+    margin-top: 25px;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+}
+
+
+/*  MQ  TABLET  */
+
+@media(min-width:420px) and (max-width:768px){
+  .title {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .title2 {
+    font-size: 30px;
+  }
+  .tagline {
+    font-size: 22px;
+  }
+
+  .diamond1 {
+    width: 20%;
+  }
+
+  .diamond2{
+    display:none;
+  }
+  p {
+    font-size:20px;
+  }
+
+
+  footer p{
+    font-size:18px;
+  }
+
+  footer img {
+    width: 100px;
+  }
+
+  #nameImg {
+    margin-top: -80px;
+  }
+
+  .contact {
+    margin: 0px;
+    margin-left: 250px;
+    text-align: left;
+    width: 100%;
+  }
+  .address {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 250px;
+    text-align: left;
+  }
+}
+
+/*  MQ  MOBILE */
+
+@media(max-width: 500px) {
+  .logo {
+    height:100px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+  .title2 {
+    font-size: 20px;
+  }
+
+  .diamond2 {
+    display:none;
+  }
+
+  h1{
+    font-size:20px;
+  }
+
+  h3{
+    font-size:16px;
+  }
+
+  p{
+    font-size:20px;
+    text-align: center;
+  }
+
+  main {
+    height: 600px;
+  }
+  .services-left, .services-right{
+    margin-top: 20px;
+  }
+
+  footer{
+    margin-top: -100px;
+  }
+
+  #nameImg {
+    margin-bottom: 15px;
+  }
+  .contact {
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .address {
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+  }
+
+}
