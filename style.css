@@ -32,7 +32,7 @@ body{
 
 main {
   border-radius: 15px;
-  background-image: url('../imgs/oil.jpg');
+  background-image: url('imgs/oil.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
